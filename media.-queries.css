@@ -95,6 +95,11 @@ height:75px !important ;
    }
    .hero-section{
     height: 800px !important;
+    
+   }
+   .hero1{
+ 
+   height: 200px !important;
    }
    .hero1 h1{
     font-size: 48px !important;
@@ -102,7 +107,98 @@ height:75px !important ;
    .hero1 h3{
     font-size: 16px ;
    }
-   
-   
+  .hero2{
+    margin-top: -20px;
+  }
+   .hero2 .button{
+   left: 350px !important;
+   }
+   .payment-section{
+    height: 460px !important;
+   }
+   .payment-section h1{
+    font-size: 35px !important;
+    margin-top: -8px !important;
+    margin-left: 160px !important;
+   }
+   .payment-grids .grid3{
+    height: 300px !important;
+    width: 340px !important;
+
+   }
+    .payment-grids .grid4{
+    height: 300px !important;
+    width: 340px !important;
+
+   }
+   .grid3 h2{
+    font-size: 30px !important;
+   }
+     .grid4 h2{
+    font-size: 30px !important;
+   }
+   .simplified{
+    height: 800px !important;
+   }
+   .simplified h2{
+font-size: 35px !important;
+width: 250px !important;
+
+   }
+   .simplified p{
+    font-size: 15px !important;
+    width: 430px !important;
+
+   }
+   .simplified2{
+    margin-top: 70px !important;
+   }
+   .blue-section{
+    height: 350px !important;
+    column-gap: 100px !important;
+   }
+  .blue1{
   
+    width: 300px !important;
+    height:300px !important;
+  }
+  .blue1 img{
+    width: 320px !important;
+    height: 320px !important;
+  }
+  .blue2{
+
+     width: 300px !important;
+    height:300px !important;
+  }
+  .blue2 h2{
+    font-size: 35px !important;
+    
+    margin-top: 50px !important;
+    width: 250px !important;
+  }
+  .blue2 p{
+    font-size: 13px !important;
+    width: 250px !important;
+  }
+  .blue2 button{
+   height: 40px !important;
+  }
+  .safe-security{
+   
+    height: 55vh !important;
+  }
+  .safe-security h2{
+    font-size: 35px !important;
+    margin-bottom: 10px;
+  }
+  .safe-security p{
+    font-size: 13px !important;
+  
+    width: 370px;
+    margin-top: -120px !important;
+  }
+  .safe-security img{
+    width: 700px !important;
+  }
 }

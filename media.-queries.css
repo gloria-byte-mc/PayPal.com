@@ -1,3 +1,108 @@
 @media screen and (max-width:1024px) {
+  .grid1{
+   
+  }
+  .grid1 hr{
+    width: 390px !important;
+  }
+  .grid2{
+    
+    width: 400px;
+  }
+  .grid1a{
+   
+  }
+  .grid1a hr{
+width: 440px !important;
+  }
+.dropdown2  .grid1b{
+   
+    height: 350px !important;
+    width: 500px !important;
+
+  }
+  .grid1b hr{
+    width: 440px !important;
+
+  }
+ .grid1b #business{
+  margin-top: 72px !important;
+ }
+ .dropdown2{
+  height: 550px !important;
+ }
+   nav ul li:hover .dropdown2,
+    nav ul li .dropdown2:hover {
+      display: grid;
+      grid-template-columns: 450px auto;
+      gap: 30px ;
+         background-color: white;
+    }
+   .dropdown2 .grid2a{
+    display: flex;
+    align-items: center;
+     
+      height: 100px;
+      flex-direction: row !important;
+      min-width: 1000px;
+      flex: 1;
+      padding-left: 40px ;
+      margin-right: 0px !important;
+      
+    }
+    .grid2a button{
+     padding: 20px !important;
+     width:300px !important;
+     height: 70px !important;
+    
+    }
+    .dropdown2 .grid2a  br{
+      display: none !important;
+    }
+    .grid2a .get{
+      margin-top: 0px !important;
+    }
+
+    .dropdown{
+      height: 500px ;
+    }
+      nav ul li:hover .dropdown,
+    nav ul li .dropdown:hover {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+      background-color: white;
+    }
+    .dropdown .grid2{
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+   
+      width: 100%;
+      justify-self: start;
+      padding-left: 10px !important;
+      
+    }
+ .grid2  .get{
+  margin-top: 0px !important;
+width: 450px !important;
+height: 75px !important;
+margin-right: -18px !important;
+   }
+  .grid2 .how{
+width: 450px !important;
+height:75px !important ;
+   }
+   .hero-section{
+    height: 800px !important;
+   }
+   .hero1 h1{
+    font-size: 48px !important;
+   }
+   .hero1 h3{
+    font-size: 16px ;
+   }
+   
+   
   
 }

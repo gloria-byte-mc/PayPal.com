@@ -1,0 +1,49 @@
+.safe-security{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+align-items: center;
+flex-direction: column;
+}
+.safe-security h2{
+  font-size: 76.29px;
+  color:#001c64 ;
+  font-weight: 700;
+  letter-spacing: -1.07012px;
+  
+  height: 170px;
+  width: 500px;
+  line-height: 1;
+  text-align: center;
+  margin-top: 170px;
+}
+.safe-security p{
+  font-size: 20px;
+  text-align: center;
+ color: #001435;
+ font-weight: 450;
+  width: 640px;
+  margin-top: 30px;
+}
+.safe-security button{
+  margin-top: 30px;
+  flex-shrink: 0;
+    background-color: #003087;
+  color: white;
+border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  width: 260px;
+  height: 43px ;
+  border-radius: 50px;
+}
+
+
+.safe-security img{
+ width:  1300px;
+ 
+ 
+  
+  
+}

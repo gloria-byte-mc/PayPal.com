@@ -1,0 +1,157 @@
+.withdraw-container{
+  width: 100vw;
+  height: 100vh;
+ 
+}
+.withdraw-grids{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 160px;
+  column-gap: 30px;
+}
+.withdraw1{
+  width: 520px;
+  height: 350px;
+  background-color: #f3f3f6;
+  border-radius:25px ;
+  display: flex;
+  flex-direction: column;
+}
+.withdraw2{
+  width: 520px;
+  height: 350px;
+  background-color: #f3f3f6;
+  border-radius: 25px;
+}
+.withdraw1 h3{
+  font-size: 39.056px;
+  letter-spacing: -0.470552px;
+  color: #001c64;
+  font-weight: 700;
+  
+  width:  360px;
+
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.withdraw1 p{
+  color: #001435;
+  width: 390px ;
+  font-size: 14.944px;
+  font-weight: 450;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.withdraw2 h3{
+    font-size: 39.056px;
+  letter-spacing: -0.470552px;
+  color: #001c64;
+  font-weight: 700;
+  width: 400px;
+
+  margin-left: 50px;
+  margin-top: 60px;
+  
+}
+.withdraw2 p{
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #001435;
+    font-size: 14.944px;
+  font-weight: 450;
+  
+  width:  400px;
+
+}
+.withdraw1 button{
+ width: 300px;
+ height: 40px;
+  color: #0070e0;
+  margin-left: 50px;
+  display: inline-flex;
+ align-items: center;
+font-size: 16px;
+font-weight: 700;
+border-radius: 3.008px;
+ margin-top: 20px;
+ border: none;
+ outline: none;
+ background-color: transparent;
+
+}
+
+.withdraw2 button{
+   width: 360px;
+ height: 40px;
+  color: #0070e0;
+  margin-left: 50px;
+  display: inline-flex;
+ align-items: center;
+font-size: 16px;
+font-weight: 700;
+border-radius: 3.008px;
+ margin-top: 66px;
+ border: none;
+ outline: none;
+ background-color: transparent;
+}
+
+.small-btn5{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1dbf5;
+  margin-left: 20px;
+  font-size: 11px;
+  width: 30px;
+  height: 30px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.small-btn5 i{
+  font-size: 20px;
+  margin-left: -20px;
+}
+
+.Join-millions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1200px;
+  height: 500px;
+  justify-self: center;
+  margin-top: 150px;
+}
+.Join-millions h2{
+  font-size: 76.29px;
+
+  width: 1000px;
+  text-align: center;
+  color: #001c64;
+}
+.Join-millions #p1{
+ 
+  color: #001435;
+  font-size: 20px;
+  font-weight: 450;
+  width:  628px;
+  text-align: center;
+  margin-top: 30px;
+}
+.Join-millions #p2{
+
+  color: #001435;
+  font-size: 20px;
+  font-weight: 450;
+  width:  650px;
+  text-align: center;
+}
+.Join-millions img{
+  margin-top: 25px;
+  border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,327 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: PayPalOpen, "Helvetica", Arial, sans-serif;
+}
+
+
+  
+
+
+.navbar{
+   position: relative;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(223, 221, 221);
+  align-items: center;
+}
+.navbar img{
+  height: 35px;
+  width: 35px;
+  margin-left: 260px;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar ul li{
+  
+  padding-bottom: 22px;
+  padding-top: 22px;
+}
+.navbar .list1{
+  margin-left: 20px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #001c64;
+  font-size: 15px;
+  font-weight: normal;
+
+}
+.navbar ul li:hover > a {
+  font-weight: bolder;
+  
+}
+.navbar ul li  i{
+  color: #001c64;
+  font-size: 9px;
+  font-weight: bolder;
+    text-shadow: 0 0 1px #001c64;
+  margin-left: 5px;
+ transition: 0.3s ease;
+}
+.navbar ul li:hover i {
+  transform: rotate(-180deg);
+}
+
+
+.link-buttons{
+
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+ 
+  margin-right: 250px;
+}
+.link-buttons .log-in{
+  width: 110px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #003087;
+  color: #003087;
+  font-size: 18px;
+  font-weight: bold;
+}
+.link-buttons .log-in:hover{
+  border: 2px solid #0070e0;
+  color: #0070e0;
+}
+.link-buttons .sign-up{
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #003087;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.link-buttons .sign-up:hover{
+  background-color: #0070e0;
+}
+
+ .dropdown {
+      display: none;
+      position: absolute;
+      top: 101%;
+      width: 100vw;
+      height: 400px;
+      z-index: 1000;
+      left: 0;
+      
+      color: #333;
+      padding: 20px;
+      width: 100%;/* width of dropdown */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+      
+ 
+     
+    }
+
+    @keyframes grow {
+      0% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+    }
+     nav ul li:hover .dropdown {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3-column grid */
+      gap: 20px;
+     
+   
+    }
+      nav ul li:hover .dropdown,
+    nav ul li .dropdown:hover {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      background-color: white;
+    }
+
+    .dropdown .grid1{
+     
+      display: flex;
+      flex-direction: column;
+    
+      margin-left: 225px;
+      padding-left: 20px;
+     width: 500px;
+    }
+    .grid1 h2{
+      margin-top: 20px;
+      color: #001c64;
+      margin-left: 0px;
+      font-size: 30px;
+    }
+    .grid1 h4{
+      color: #001c64;
+      font-weight: 700;
+    }
+    .grid1 hr{
+      margin-top: 20px;
+      width: 390px;
+      border:none;
+      height: 0.5px;
+      background-color: rgb(223, 221, 221);
+    }
+    .grid1 button{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border: none;
+      margin-left: -10px;
+      background-color: white;
+      color: #001c64;
+      font-size: 16px;
+      width: 400px;
+      
+    }
+.grid1 button:hover{
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 10px;
+  color: #0070e0;
+  font-weight: bolder;
+}
+.grid1 button i{
+  display: none;
+
+
+}
+.grid1 button:hover i{
+  display: flex;
+  margin-left: auto;
+  color: #0070e0;
+  font-size: 15px;
+}
+
+.grid2{
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-right: 200px;
+ 
+
+}
+
+.grid2 button{
+  background-color:#faf8f6;
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+  color: #001c64;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.grid2 button:hover{
+  background-color: transparent;
+  border: 1px solid rgb(223, 221, 221);
+  color: #0070e0;
+}
+.grid2 .get{
+margin-top: 90px;
+}
+
+.grid2 .small-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1dbf5;
+  color: white;
+  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.small-btn i{
+  padding-left: 20px !important;
+  font-size: 15px !important;
+  color: #0070e0 !important;
+}
+
+
+@media screen and (max-width:1440px) {
+  .navbar{
+    height: 90px;
+  }
+  .navbar img{
+    margin-left: 50px;
+  }
+  .link-buttons{
+    margin-right: 80px;
+  }
+  .dropdown .grid1{
+   
+    margin-left: 18px;
+   
+  }
+  .dropdown .grid2{
+    margin-right: 50px;
+  }
+  .grid2{
+    margin-right: -10px;
+  }
+  .link-buttons .log-in{
+   height: 45px;
+   width: 115px;
+  }
+  .link-buttons .sign-up{
+    height: 45px;
+    width: 145px;
+    font-size: 18px;
+  }
+  .dropdown2 .grid1a{
+    margin-left: 18px !important;
+  }
+ 
+  
+ .grid2a button{
+  margin-right: 75px !important;
+ }
+ .hero-section{
+  height: 1000px !important;
+ }
+.hero1{
+  margin-top: 50px !important;
+ 
+  height: 250px !important;
+}
+ .hero1 h3{
+  font-size:18px ;
+
+ }
+ .hero1 h1{
+  font-size:65px !important;
+  
+ }
+ .hero1 button{
+  width: 140px !important;
+  height: 40px !important;
+ }
+ .hero2{
+  width: 100% !important;
+  height: 100% !important;
+ 
+ }
+}

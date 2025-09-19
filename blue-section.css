@@ -1,0 +1,59 @@
+.blue-section{
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 600px;
+  background-color: #0070e0;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 140px;
+}
+
+.blue1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 540px;
+  height: 500px;
+}
+.blue2{
+
+  width: 600px;
+  height: 500px;
+ 
+}
+.blue1 img{
+width: 600px;
+height: 600px;
+object-fit: cover;
+}
+.blue2 h2{
+  font-size: 65px;
+  font-weight: 700;
+  width: 460px;
+ 
+  letter-spacing: -1.82857px;
+  line-height: 1;
+  color: white;
+  margin-top: 60px;
+}
+.blue2 p{
+  font-size: 20px;
+  font-weight: 700;
+  width: 450px;
+  margin-top: 40px;
+  color: white;
+}
+.blue2 button{
+  margin-top: 30px;
+    background-color: white;
+  color:#003087;
+border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  width: 240px;
+  height: 45px;
+  border-radius: 50px;
+}

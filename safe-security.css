@@ -42,8 +42,8 @@ border: none;
 
 .safe-security img{
  width:  1300px;
- 
- 
   
-  
+}
+.safe-security .img-person{
+  display: none;
 }

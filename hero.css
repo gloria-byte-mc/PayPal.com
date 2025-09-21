@@ -1,11 +1,11 @@
 .hero-section{
+  width: 100vw;
  height: 1600px;
  background-color: #f3f3f6;
  display: grid;
  grid-template-columns: auto;
  row-gap: 50px;
- border-bottom-left-radius: 50px;  /* left bottom corner */
- border-bottom-right-radius: 50px; /* right bottom corner */
+justify-content: center;
  position: relative;
  z-index: 1;
 }

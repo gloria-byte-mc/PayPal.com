@@ -1,3 +1,282 @@
+@media screen and (max-width:1440px) {
+  .navbar{
+    height: 90px;
+  }
+  .navbar img{
+    margin-left: 50px;
+  }
+  .link-buttons{
+    margin-right: 80px;
+  }
+  .dropdown .grid1{
+   
+    margin-left: 18px;
+   
+  }
+  .dropdown .grid2{
+    margin-right: 50px;
+  }
+  .grid2{
+    margin-right: -10px;
+  }
+  .link-buttons .log-in{
+   height: 45px;
+   width: 115px;
+  }
+  .link-buttons .sign-up{
+    height: 45px;
+    width: 145px;
+    font-size: 18px;
+  }
+  .dropdown2 .grid1b{
+  
+    width: 450px !important;
+  }
+  .dropdown2 .grid1a{
+    margin-left: 18px !important;
+ 
+    
+  }
+ .dropdown2 .grid2a{
+ 
+  margin-right: -20px !important;
+  width: 330px !important;
+ }
+  
+ .grid2a button{
+  margin-right: 20px !important;
+ }
+ .hero-section{
+  height: 1000px !important;
+ }
+.hero1{
+  margin-top: 50px !important;
+ 
+  height: 250px !important;
+}
+ .hero1 h3{
+  font-size:18px ;
+
+ }
+ .hero1 h1{
+  font-size:65px !important;
+  
+ }
+ .hero1 button{
+  width: 140px !important;
+  height: 40px !important;
+ }
+ .hero2{
+  width: 100% !important;
+  height: 100% !important;
+ 
+ }
+ .hero2 .button{
+  top: 350px !important;
+  left: 600px !important;
+ }
+ .payment-section{
+  height: 500px !important;
+ }
+ .payment-section h1{
+  font-size:45px !important ;
+  margin-left: 215px !important;
+  
+ width: 400px !important;
+ }
+ .payment-grids .grid3{
+height: 270px !important;
+ width: 490px !important;
+ 
+ }
+ .payment-grids .grid4{
+  height: 270px !important;
+   width: 490px !important;
+ }
+ .grid3 h2{
+  font-size: 35px !important;
+ }
+ .grid4 h2{
+  font-size: 35px !important;
+  width:350px !important ;
+  
+ }
+ .small-btn3{
+  width: 28px !important;
+  height: 28px !important;
+ }
+ .small-btn3 i{
+  font-size: 25px !important;
+  margin-left: -5px !important;
+ }
+ .simplified h2{
+  font-size:50px !important ;
+ 
+ width: 900px !important;
+ }
+
+ .simplified p{
+  font-size: 17px !important;
+ margin-top: 20px !important;
+  width:550px  !important;
+ }
+ .simplified button{
+  width: 230px !important;
+ }
+ .simplified2{
+  margin-top: 290px !important;
+ }
+ .simplified{
+  height: 1070px !important;
+ }
+ .blue-section{
+  height: 500px !important;
+ }
+ .blue1{
+  
+  width: 500px !important;
+  height: 450px !important;
+ }
+ .blue1 img{
+  width: 520px !important;
+  height: 520px !important;
+ }
+ .blue2{
+  
+  width: 500px !important;
+  height: 450px !important;
+ 
+ }
+ .blue2 h2{
+  font-size: 45px !important;
+  margin-top: 95px !important;
+ }
+ .blue2 p{
+  font-size: 17px !important;
+  width: 420px !important;
+  margin-top: 20px !important;
+ }
+ .blue2 button{
+  margin-top: 20px !important;
+ }
+ .safe-security{
+
+  height: 80vh !important;
+ }
+ .safe-security h2{
+  font-size: 50px !important;
+  margin-top: 70px !important;
+ }
+ .safe-security p{
+font-size: 17px !important;
+margin-top: -95px !important;
+
+ }
+ .safe-security button{
+  width: 270px !important;
+  margin-top: 20px !important;
+ }
+ .safe-security img{
+  width: 1050px !important;
+ }
+ .withdraw-container{
+
+  margin-top: -160px;
+  height: 75vh !important;
+ }
+ .withdraw-grids{
+  column-gap: 20px !important;
+ }
+ .withdraw1{
+height: 270px !important;
+width: 490px !important;
+ }
+ .withdraw2{
+  height: 270px !important;
+width: 490px !important;
+ }
+ .withdraw1 h3{
+  font-size: 30px !important;
+  margin-top:40px !important ;
+ }
+ .withdraw2 h3{
+  font-size: 30px !important;
+   margin-top:40px !important ;
+ }
+ .withdraw1 button{
+  font-size: 15px !important;
+ }
+ .withdraw2 button{
+  font-size: 15px !important;
+  margin-top: 20px !important;
+ }
+ .Join-millions{
+  margin-top: 130px !important;
+ }
+ .Join-millions h2{
+font-size: 50px !important;
+
+width: 650px !important;
+ }
+ .Join-millions #p1{
+  font-size: 17px !important;
+  margin-top: 20px !important;
+ }
+ .Join-millions #p2{
+  font-size: 17px !important;
+ }
+ .discover-container{
+  
+  height: 33vh !important;
+ }
+ .discover-container h3{
+  font-size: 30px !important;
+ }
+ .discover-grids{
+ 
+  margin-top:70px !important ;
+ }
+.discover2{
+  margin-left: -55px !important;
+width: 430px !important;
+font-size: 18px !important;
+}
+.discover3{
+width: 430px !important;
+font-size: 18px !important;
+}
+.discover4{
+margin-left: -55px !important;
+width: 430px !important;
+font-size: 18px !important;
+}
+.discover5{
+width: 430px !important;
+font-size: 18px !important;
+}
+.footer {
+padding-left: 180px !important;
+}
+hr{
+  width: 1020px !important;
+}
+.footer-wording{
+width: 1020px !important;
+}
+
+.footer-wording2{
+  width: 1020px !important;
+}
+.copyright{
+  width: 1020px !important;
+
+}
+}
+
+
+
+
+
 @media screen and (max-width:1024px) {
   .grid1{
    
@@ -120,6 +399,7 @@ height:75px !important ;
     font-size: 35px !important;
     margin-top: -8px !important;
     margin-left: 160px !important;
+    width: 300px !important;
    }
    .payment-grids .grid3{
     height: 300px !important;
@@ -200,5 +480,127 @@ width: 250px !important;
   }
   .safe-security img{
     width: 700px !important;
+  }
+  .withdraw-container{
+
+  }
+  .withdraw-grids{
+
+  }
+  .withdraw1{
+    width: 360px !important;
+    height: 380px !important;
+  }
+  .withdraw2{
+     width: 360px !important;
+    height: 380px !important;
+  }
+  .withdraw1 h3{
+    width: 250px !important;
+    font-size: 28px !important;
+  }
+  .withdraw1 p{
+    width: 230px !important;
+ 
+   
+  }
+ .withdraw2 h3{
+    width: 250px !important;
+    font-size: 28px !important;
+  }
+  .withdraw2 p{
+    width: 230px !important;
+  }
+  .withdraw1 button{
+ 
+    width: 280px !important;
+    height: 45px !important;
+    
+  }
+ .withdraw2 button{
+    width: 280px !important;
+    
+    margin-top: 38px !important;
+    height: 45px !important;
+    
+  }
+  .Join-millions{
+    height: 300px !important;
+   
+    margin-top: 60px !important;
+  }
+  .Join-millions h2{
+font-size: 35px !important;
+width: 450px !important;
+
+  }
+  .Join-millions #p1{
+    font-size: 15px !important;
+  }
+  .Join-millions #p2{
+    font-size: 15px !important;
+  }
+  .discover-container{
+  height: 30vh !important;
+  }
+  .discover1{
+    padding-left: 180px;
+  
+  }
+  .discover-container h3{
+    font-size: 23px !important;
+    
+    
+  }
+  .discover2{
+width: 300px !important;
+font-size: 15px !important;
+margin-left: 20px !important;
+border-radius: 15px !important;
+  }
+   .discover3{
+width: 300px !important;
+font-size: 15px !important;
+border-radius: 15px !important;
+  }
+   .discover4{
+width: 300px !important;
+font-size: 15px !important;
+margin-left: 20px !important;
+border-radius: 15px !important;
+  }
+   .discover5{
+width: 300px !important;
+font-size: 15px !important;
+border-radius: 15px !important;
+  }
+  .footer-wording{
+    width: 720px !important;
+   
+  }
+  .footer-img{
+    height: 30px !important;
+  }
+  hr{
+    width: 715px !important;
+  }
+  .footer-wording2{
+grid-template-columns: auto !important;
+
+width: 800px !important;
+height: 60px;
+  }
+  .wording4{
+justify-content: flex-start !important;
+  }
+  .wording1 a{
+    font-size: 0.9rem !important;
+  }
+  .wording4 a{
+    font-size: 0.9rem !important;
+  }
+  .copyright{
+    width: 700px !important;
+    margin-top: 50px !important;
   }
 }

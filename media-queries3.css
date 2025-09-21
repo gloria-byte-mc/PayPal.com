@@ -85,5 +85,132 @@ hr{
 
 
 @media screen and (max-width:820px) {
-  
+  .simplified2{
+  margin-top: 350px !important;
+  }
+   .discover2{
+width: 360px !important;
+height: 80px !important;
+}
+.discover3{
+width: 360px !important;
+height: 80px !important;
+}
+.discover4{
+width: 360px !important;
+height: 80px !important;
+}
+.discover5{
+width: 360px !important;
+height: 80px !important;
+}
+.discover1{
+  padding-left: 116px !important;
+ 
+}
+  .footer-wording{
+    width: 740px !important;
+  }
+  .footer-wording2{
+    grid-template-columns: auto !important;
+  }
+  .wording4{
+    margin-left: 0px !important;
+  }
+  .copyright{
+    display:  block !important;
+  }
+  .footer{
+    height: 40vh !important;
+  }
+  hr{
+    width: 735px !important;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .payment-grids .grid3{
+  height: 400px !important;
+  width: 340px !important;
+}
+.payment-grids .grid4{
+   height: 400px !important;
+  width: 340px !important;
+}
+.payment-section{
+  height: 520px !important;
+}
+  .simplified2{
+  margin-top: 370px !important;
+  }
+  .safe-security{
+    height: 130vh !important;
+  }
+  .withdraw-container{
+
+  height: 60vh !important;
+
+}
+  .withdraw1{
+  width: 360px !important;
+  height: 300px !important;
+}
+.withdraw2{
+  width: 360px !important;
+  height: 300px !important;
+}
+.withdraw1 h3{
+  width: 300px !important;
+}
+.withdraw1 p{
+  width: 320px !important;
+}
+.withdraw2 h3{
+  width: 300px !important;
+}
+.withdraw2 p{
+  width: 320px !important;
+}
+.withdraw1 button{
+  width: 280px !important;
+}
+.withdraw2 button{
+  width: 280px !important;
+  margin-top:65px !important ;
+}
+.hero2{
+  width: 75% !important;
+}
+.discover-container{
+  height: 30vh !important;
+}
+   .discover2{
+width: 340px !important;
+height: 80px !important;
+}
+.discover3{
+width: 340px !important;
+height: 80px !important;
+}
+.discover4{
+width: 340px !important;
+height: 80px !important;
+}
+.discover5{
+width: 340px !important;
+height: 80px !important;
+}
+.discover1{
+  padding-left: 130px !important;
+ 
+}
+.footer-wording{
+  width: 700px !important;
+}
+hr{
+  width: 695px !important;
+}
+.hero2 .button{
+  left: 190px !important;
+}
 }

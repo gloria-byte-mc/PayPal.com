@@ -216,6 +216,9 @@ hr{
 }
 
 @media screen and (max-width:540px) {
+    .link-buttons .sign-up{
+    width: 85px;
+  }
   .hero2{
     width: 50% !important;
     height: 500px !important;
@@ -266,7 +269,7 @@ height: 750px !important;
 }
 .blue1{
   
-   width: 618px !important;
+   width: 550px !important;
   height: 500px !important;
 }
 .blue1 img{
@@ -274,7 +277,7 @@ height: 750px !important;
   height: 480px !important;
 }
 .blue2{
-   width: 700px !important;
+   width: 545px !important;
   height: 250px !important;
 
 }
@@ -388,6 +391,10 @@ width: 500px !important;
   width: 480px !important;
   grid-template-columns: auto;
 }
+.footer-wording2{
+  width: 420px !important;
+  
+}
 .wording2{
   margin-right: auto !important;
 
@@ -407,6 +414,9 @@ hr{
 
 
 @media screen and (max-width:430px) {
+  .link-buttons .sign-up{
+    width: 85px;
+  }
   #humbuger-menu{
     margin-right: 25px ;
   }
@@ -444,7 +454,17 @@ hr{
 .blue1 img{
   width: 400px !important;
   height: 400px !important;
-  margin-left: 40px;
+  margin-left: 10px;
+}.blue1{
+  
+   width: 420px !important;
+  height: 500px !important;
+}
+
+.blue2{
+   width: 430px !important;
+  height: 250px !important;
+
 }
 .blue2 p{
  
@@ -561,4 +581,264 @@ hr{
   
   width: 350px !important;
 }
+}
+
+@media screen  and (max-width:412px) {
+.payment-grids .grid3{
+  margin-left: 240px !important;
+
+}
+.payment-section h1{
+  margin-left: 18px !important;
+}
+.blue1 img{
+  width: 400px !important;
+  height: 400px !important;
+  margin-left: 10px;
+}.blue1{
+  
+   width: 400px !important;
+  height: 500px !important;
+}
+
+.blue2{
+   width: 410px !important;
+  height: 250px !important;
+
+}
+.safe-security .img-person{
+  height: 500px !important;
+  width: 90vw !important;
+}
+  .withdraw1{
+  
+  width: 390px !important;
+  height: 230px !important;
+  border-radius: 15px !important;
+ 
+}
+.withdraw2{
+
+  width: 390px !important;
+  height: 230px !important;
+  border-radius: 15px !important;
+
+}
+.withdraw1 h3{
+  width: 400px !important;
+  margin-left: 20px !important;
+}
+.withdraw1 p{
+  width: 350px !important;
+  margin-left: 20px !important;
+}
+.withdraw2 h3{
+  width: 380px !important;
+  margin-left: 20px !important;
+}
+.withdraw2 p{
+  width: 350px !important;
+  margin-left: 20px !important;
+}
+.withdraw1 button{
+  width: 320px !important;
+  margin-left: 20px !important;
+}
+.withdraw2 button{
+  width: 340px !important;
+  margin-top:15px !important ;
+  margin-left: 20px !important;
+}
+.footer-wording2{
+  width: 370px !important;
+  
+}
+.footer-wording{
+  width: 370px !important;
+}
+}
+
+@media screen and (max-width:390px) {
+  .hero2 .button{
+    left: 30px !important;
+  }
+  .payment-grids .grid3{
+  margin-left: 260px !important;
+
+}
+.payment-section h1{
+  margin-left: 18px !important;
+}
+.blue1 img{
+  width: 400px !important;
+  height: 400px !important;
+  margin-left: -20px;
+}.blue1{
+  
+   width: 380px !important;
+  height: 500px !important;
+}
+
+.blue2{
+   width: 390px !important;
+  height: 250px !important;
+
+}
+.simplified p{
+  width: 360px !important;
+  
+}
+.safe-security .img-person{
+  height: 450px !important;
+  width: 90vw !important;
+}
+  .withdraw1{
+ 
+  width: 360px !important;
+  height: 230px !important;
+  border-radius: 15px !important;
+ height: 250px !important;
+}
+.withdraw2{
+
+  width: 360px !important;
+  height: 230px !important;
+  border-radius: 15px !important;
+height: 250px !important;
+}
+.withdraw1 h3{
+  width: 320px !important;
+  margin-left: 20px !important;
+}
+.withdraw1 p{
+  width: 300px !important;
+  margin-left: 20px !important;
+  
+}
+.withdraw2 h3{
+  width: 320px !important;
+  margin-left: 20px !important;
+}
+.withdraw2 p{
+  width: 250px !important;
+  margin-left: 20px !important;
+}
+  .discover2{
+width: 360px !important;
+height: 80px !important;
+
+}
+.discover3{
+width: 360px !important;
+height: 80px !important;
+}
+.discover4{
+width: 360px !important;
+height: 80px !important;
+}
+.discover5{
+width: 360px !important;
+height: 80px !important;
+}
+.discover1{
+  padding-left: 295px !important;
+}
+.footer-wording2{
+  width: 350px !important;
+  
+}
+.footer-wording{
+  width: 350px !important;
+}
+hr{
+  width: 330px !important;
+}
+.copyright{
+  width: 330px !important;
+}
+.hero2{
+  width: 35% !important;
+}
+}
+
+@media screen and (max-width:376px) {
+  .hero2 .button{
+    left: 15px !important;
+  }
+    .payment-grids .grid3{
+  margin-left: 270px !important;
+
+}
+.payment-section h1{
+  margin-left: 18px !important;
+}
+.simplified p{
+  width: 340px !important;
+  
+}
+.blue-section{
+  align-items: center;
+height: 630px !important;
+  display: grid;
+}
+.blue1 img{
+  width: 300px !important;
+  height: 300px !important;
+  margin-left: -20px;
+}.blue1{
+  
+   width: 360px !important;
+  height: 300px !important;
+}
+
+.blue2{
+   width: 360px !important;
+  height: 250px !important;
+
+}
+.safe-security{
+  height: 140vh !important;
+}
+.withdraw-container{
+  height: 140vh !important;
+}
+.discover2{
+width: 360px !important;
+height: 80px !important;
+
+}
+.discover3{
+width: 360px !important;
+height: 80px !important;
+}
+.discover4{
+width: 360px !important;
+height: 80px !important;
+}
+.discover5{
+width: 360px !important;
+height: 80px !important;
+}
+.discover1{
+  padding-left: 300px !important;
+}
+.discover-container h3{
+  font-size: 23px !important;
+  width: 300px !important;
+}
+.discover-container{
+  height: 80vh !important;
+}
+.footer{
+  height: 90vh !important;
+}
+.footer-wording{
+  
+  width: 330px !important;
+}
+.footer-wording2{
+  
+  width: 330px !important;
+}
+
 }

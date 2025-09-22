@@ -22,6 +22,7 @@
  justify-content: center;
   row-gap: 20px;
   margin-top: 80px;
+  
 
 }
 .discover2{
@@ -37,6 +38,10 @@
   outline: none;
   font-weight: 700;
     padding-left: 20px;
+    transition: 0.3s ease;
+}
+.discover2:hover{
+  transform: scale(1.05);
 }
 .discover3{
    display: flex;

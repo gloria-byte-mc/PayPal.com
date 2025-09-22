@@ -1,6 +1,10 @@
 @media screen and (max-width:912px) {
   
-
+.navbar img{
+  height: 25px;
+  width: 25px;
+  margin-left: 15px ;
+}
 
 .navbar ul{
   display: none !important;
@@ -31,6 +35,9 @@
   font-size: 15px !important;
   
 }
+.hero1{
+  width: 900px;
+}
 
 .hero2{
  width: 80% !important;
@@ -42,14 +49,17 @@
 }
 .hero2 .button{
   left: 200px !important;
+  top: 340px !important;
 }
 .payment-section{
 height: 580px !important;
+
 }
 .payment-section h1{
   font-size: 38px !important;
   margin-left: 78px !important;
   width: 600px !important;
+ 
 }
 .payment-grids .grid3{
   height: 450px !important;
@@ -150,6 +160,9 @@ height: 100vh !important;
 .withdraw2 button{
   width: 340px !important;
   height: 40px !important;
+}
+.Join-millions{
+  width: 900px;
 }
 .Join-millions img{
   display: none;

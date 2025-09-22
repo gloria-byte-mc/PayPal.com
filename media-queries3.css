@@ -1,8 +1,11 @@
 @media screen and (max-width:854px){
- 
+ .hero1{
+  width: 850px;
+ }
  
   .hero2 .button{
-    left: 240px !important;
+    left: 180px !important;
+    top: 320px !important;
   }
   .safe-security{
     height: 110vh !important;
@@ -14,6 +17,12 @@
 
 
  }
+ .payment-section h1{
+  font-size: 38px !important;
+  margin-left: 55px !important;
+  width: 600px !important;
+ 
+}
   .withdraw1{
     width: 380px !important;
     height: 250px !important;
@@ -40,6 +49,9 @@ margin-left: 30px ;
   }
    .withdraw2 button{
     margin-left: 30px;
+  }
+  .Join-millions{
+    width: 850px;
   }
   .discover2{
 width: 380px !important;
@@ -85,6 +97,13 @@ hr{
 
 
 @media screen and (max-width:820px) {
+  .hero1{
+  width: 820px;
+ }
+   .hero2 .button{
+    left: 160px !important;
+    top: 320px !important;
+  }
   .simplified2{
   margin-top: 350px !important;
   }
@@ -108,11 +127,15 @@ height: 80px !important;
   padding-left: 116px !important;
  
 }
+.Join-millions{
+    width: 800px;
+  }
   .footer-wording{
     width: 740px !important;
   }
   .footer-wording2{
     grid-template-columns: auto !important;
+    width: 740px !important;
   }
   .wording4{
     margin-left: 0px !important;
@@ -129,6 +152,13 @@ height: 80px !important;
 }
 
 @media screen and (max-width:768px) {
+   .hero1{
+  width: 760px;
+ }
+   .hero2 .button{
+    left: 140px !important;
+    top: 300px !important;
+  }
   .payment-grids .grid3{
   height: 400px !important;
   width: 340px !important;
@@ -179,8 +209,11 @@ height: 80px !important;
   margin-top:65px !important ;
 }
 .hero2{
-  width: 75% !important;
+  width: 80% !important;
 }
+.Join-millions{
+    width: 770px;
+  }
 .discover-container{
   height: 30vh !important;
 }
@@ -207,25 +240,30 @@ height: 80px !important;
 .footer-wording{
   width: 700px !important;
 }
+.footer-wording2{
+  width: 715px !important;
+}
 hr{
   width: 695px !important;
 }
-.hero2 .button{
-  left: 190px !important;
-}
+
+
 }
 
 @media screen and (max-width:540px) {
     .link-buttons .sign-up{
     width: 85px;
   }
+    .hero1{
+  width: 540px;
+ }
   .hero2{
-    width: 50% !important;
+    width: 80% !important;
     height: 500px !important;
   }
   .hero2 .button{
     top: 300px !important;
-    left:75px !important ;
+    left:50px !important ;
 
   }
   .payment-section{
@@ -336,6 +374,9 @@ height: 140vh !important;
   width: 340px !important;
   margin-top:15px !important ;
 }
+.Join-millions{
+    width: 540px;
+  }
   .discover2{
 width: 380px !important;
 height: 80px !important;
@@ -420,11 +461,14 @@ hr{
   #humbuger-menu{
     margin-right: 25px ;
   }
+     .hero1{
+  width: 430px;
+ }
   .hero2{
-    width: 40% !important;
+    width: 90% !important;
   }
   .hero2 .button{
-    left: 40px !important;
+    left: 20px !important;
   }
 .payment-section h1{
   margin-left: 20px !important;
@@ -472,6 +516,11 @@ hr{
 }
 .safe-security{
   height: 100vh !important;
+  width: 100vw !important;
+
+}
+.safe-security h2{
+  width: 400px !important;
 }
 .safe-security p{
   width: 300px !important;
@@ -479,6 +528,7 @@ hr{
 .safe-security .img-person{
   height: 500px !important;
   width: 95vw !important;
+ 
 }
 .withdraw-container{
   height: 110vh !important;
@@ -520,6 +570,9 @@ hr{
   width: 340px !important;
   margin-top:15px !important ;
 }
+.Join-millions{
+    width: 430px;
+  }
 
 .Join-millions h2{
   width: 300px !important;
@@ -584,6 +637,13 @@ hr{
 }
 
 @media screen  and (max-width:412px) {
+      .hero1{
+  width: 400px;
+ }
+ .hero2{
+    width: 90% !important;
+  }
+
 .payment-grids .grid3{
   margin-left: 240px !important;
 
@@ -606,9 +666,26 @@ hr{
   height: 250px !important;
 
 }
+.safe-security{
+  width: 100vw !important;
+ 
+}
+.safe-security h2{
+
+
+width: 400px !important;
+}
+.safe-security p{
+
+
+}
+.safe-security button{
+
+}
 .safe-security .img-person{
   height: 500px !important;
   width: 90vw !important;
+
 }
   .withdraw1{
   
@@ -659,8 +736,14 @@ hr{
 }
 
 @media screen and (max-width:390px) {
+      .hero1{
+  width: 380px;
+ }
+ .hero2{
+    width: 90% !important;
+  }
   .hero2 .button{
-    left: 30px !important;
+    left: 10px !important;
   }
   .payment-grids .grid3{
   margin-left: 260px !important;
@@ -684,13 +767,24 @@ hr{
   height: 250px !important;
 
 }
+
 .simplified p{
   width: 360px !important;
   
 }
+.safe-security{
+  height: 100vh !important;
+
+
+}
+.safe-security h2{
+  width: 380px !important;
+}
+
 .safe-security .img-person{
   height: 450px !important;
   width: 90vw !important;
+ 
 }
   .withdraw1{
  
@@ -723,6 +817,9 @@ height: 250px !important;
   width: 250px !important;
   margin-left: 20px !important;
 }
+.Join-millions{
+    width: 380px;
+  }
   .discover2{
 width: 360px !important;
 height: 80px !important;
@@ -756,14 +853,15 @@ hr{
 .copyright{
   width: 330px !important;
 }
-.hero2{
-  width: 35% !important;
-}
+
 }
 
 @media screen and (max-width:376px) {
+  .hero1{
+    width: 370px;
+  }
   .hero2 .button{
-    left: 15px !important;
+    left: 0px !important;
   }
     .payment-grids .grid3{
   margin-left: 270px !important;
@@ -772,10 +870,15 @@ hr{
 .payment-section h1{
   margin-left: 18px !important;
 }
+
 .simplified p{
   width: 340px !important;
   
 }
+.simplified1{
+  width: 100vw !important;
+}
+
 .blue-section{
   align-items: center;
 height: 630px !important;
@@ -798,7 +901,9 @@ height: 630px !important;
 }
 .safe-security{
   height: 140vh !important;
+
 }
+
 .withdraw-container{
   height: 140vh !important;
 }

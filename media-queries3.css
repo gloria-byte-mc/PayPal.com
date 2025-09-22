@@ -404,3 +404,161 @@ hr{
  
 }
 }
+
+
+@media screen and (max-width:430px) {
+  #humbuger-menu{
+    margin-right: 25px ;
+  }
+  .hero2{
+    width: 40% !important;
+  }
+  .hero2 .button{
+    left: 40px !important;
+  }
+.payment-section h1{
+  margin-left: 20px !important;
+}
+    .payment-grids .grid3{
+  height: 350px !important;
+  width: 300px !important;
+  margin-left: 220px !important;
+}
+.payment-grids .grid4{
+   height: 350px !important;
+  width: 300px !important;
+}
+
+.simplified1{
+ 
+  width: 400px !important;
+
+}
+.simplified h2{
+  width: 250px !important;
+}
+.simplified p{
+  width: 400px !important;
+  
+}
+.blue1 img{
+  width: 400px !important;
+  height: 400px !important;
+  margin-left: 40px;
+}
+.blue2 p{
+ 
+  width: 300px !important;
+}
+.safe-security{
+  height: 100vh !important;
+}
+.safe-security p{
+  width: 300px !important;
+}
+.safe-security .img-person{
+  height: 500px !important;
+  width: 95vw !important;
+}
+.withdraw-container{
+  height: 110vh !important;
+ 
+}
+.withdraw-grids{
+  grid-template-columns: auto !important;
+  row-gap: 20px !important;
+}
+  .withdraw1{
+  
+  width: 420px !important;
+  height: 230px !important;
+  border-radius: 15px !important;
+}
+.withdraw2{
+
+  width: 420px !important;
+  height: 230px !important;
+  border-radius: 15px !important;
+
+}
+.withdraw1 h3{
+  width: 400px !important;
+}
+.withdraw1 p{
+  width: 350px !important;
+}
+.withdraw2 h3{
+  width: 380px !important;
+}
+.withdraw2 p{
+  width: 350px !important;
+}
+.withdraw1 button{
+  width: 320px !important;
+}
+.withdraw2 button{
+  width: 340px !important;
+  margin-top:15px !important ;
+}
+
+.Join-millions h2{
+  width: 300px !important;
+}
+.Join-millions p{
+width: 300px !important;
+}
+  .discover2{
+width: 380px !important;
+height: 80px !important;
+
+}
+.discover3{
+width: 380px !important;
+height: 80px !important;
+}
+.discover4{
+width: 380px !important;
+height: 80px !important;
+}
+.discover5{
+width: 380px !important;
+height: 80px !important;
+}
+.discover1{
+  padding-left: 285px !important;
+}
+.discover-container h3{
+  font-size: 23px !important;
+  width: 300px !important;
+}
+.discover-container{
+  height: 60vh !important;
+}
+.footer{
+height: 80vh !important;
+}
+.footer-wording{
+  line-height: 40px !important;
+  width: 390px !important;
+}
+.wording1{
+  width: 400px !important;
+}
+hr{
+  width: 350px !important;
+}
+.footer-wording2{
+  width: 390px !important;
+  
+}
+.wording3{
+  width: 400px !important;
+  line-height: 40px !important;
+
+}
+.copyright{
+  margin-top: 110px !important;
+  
+  width: 350px !important;
+}
+}

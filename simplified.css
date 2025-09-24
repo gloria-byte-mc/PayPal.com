@@ -17,11 +17,31 @@
   flex-direction: column;
   width: 30px;
   height: fit-content;
-  
+ 
   justify-self: center;
   width: 700px;
   margin-top: 170px;
+   view-timeline-name: --boxTimeline;
+  view-timeline-axis: block;
+  animation-timeline: --boxTimeline;
+  animation-timeline:view() ;
+  animation-range: exit 0% cover 100%; 
+  animation-name: slowFloat;
+  animation-fill-mode: both;
+  
+  /* Initial state - element starts translated down */
+  transform: translateY(50px);
+   animation-timing-function: linear;
 
+}
+
+@keyframes slowFloat {
+  from {
+    transform: translateY(0px);
+   }
+  to {
+    transform: translateY(-400px);
+    }
 }
 .simplified h2{
   text-align: center;
@@ -50,6 +70,10 @@ border: none;
   height: 45px;
   border-radius: 50px;
   margin-top: 30px;
+  transition: 0.4s ease;
+}
+.simplified button:hover{
+  background-color: #0070e0;
 }
 
 .simplified2{

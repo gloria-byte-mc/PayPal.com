@@ -83,6 +83,9 @@ border-radius: 3.008px;
  background-color: transparent;
 
 }
+.withdraw1 button:hover i{
+  transform: translate(5px);
+}
 
 .withdraw2 button{
    width: 360px;
@@ -98,6 +101,9 @@ border-radius: 3.008px;
  border: none;
  outline: none;
  background-color: transparent;
+}
+.withdraw2 button:hover i{
+  transform: translate(5px);
 }
 
 .small-btn5{

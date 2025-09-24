@@ -63,9 +63,11 @@
   margin-left: 5px;
  transition: 0.3s ease;
 }
+
 .navbar ul li:hover i {
   transform: rotate(-180deg);
 }
+  
 
 
 .link-buttons{
@@ -85,10 +87,12 @@
   color: #003087;
   font-size: 18px;
   font-weight: bold;
+  transition: 0.3s ease;
 }
 .link-buttons .log-in:hover{
   border: 2px solid #0070e0;
   color: #0070e0;
+
 }
 .link-buttons .sign-up{
   width: 140px;
@@ -100,24 +104,31 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
-
+  transition: 0.3s ease;
 }
 .link-buttons .sign-up:hover{
   background-color: #0070e0;
 }
 
  .dropdown {
-      display: none;
+     
       position: absolute;
-      top: 101%;
+      top: 100%;
       width: 100vw;
-      height: 400px;
+      height: 0;
       z-index: 1000;
       left: 0;
       
       color: #333;
-      padding: 20px;
+      padding:0 20px;
+      overflow: hidden;
+      transform-origin: top;
+      transition:  height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                       padding 0.4s ease-out,
+                       opacity 0.3s ease-out;;
       width: 100%;/* width of dropdown */
+      opacity: 0;
+      visibility: hidden;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
       
@@ -125,21 +136,14 @@
      
     }
 
-    @keyframes grow {
-      0% {
-    transform: scaleY(0);
-    opacity: 0;
-  }
-  100% {
-    transform: scaleY(1);
-    opacity: 1;
-  }
-    }
      nav ul li:hover .dropdown {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3-column grid */
       gap: 20px;
-     
+        height: 400px;
+           padding: 40px 20px;
+            opacity: 1;
+            visibility: visible;
    
     }
       nav ul li:hover .dropdown,
@@ -150,6 +154,13 @@
       background-color: white;
     }
 
+       nav ul li .dropdown:hover {
+            height: 400px;
+            padding: 40px 20px;
+            opacity: 1;
+            visibility: visible;
+        }
+
     .dropdown .grid1{
      
       display: flex;
@@ -158,6 +169,9 @@
       margin-left: 225px;
       padding-left: 20px;
      width: 500px;
+      transform: translateY(-20px);
+            opacity: 0;
+            transition: transform 0.3s ease-out 0.2s, opacity 0.3s ease-out 0.2s;
     }
     .grid1 h2{
       margin-top: 20px;
@@ -186,6 +200,7 @@
       color: #001c64;
       font-size: 16px;
       width: 400px;
+    
       
     }
 .grid1 button:hover{
@@ -204,7 +219,9 @@
   margin-left: auto;
   color: #0070e0;
   font-size: 15px;
+  
 }
+
 
 .grid2{
   margin-left: auto;
@@ -212,7 +229,9 @@
   flex-direction: column;
   width: 500px;
   margin-right: 200px ;
- 
+     transform: translateY(-20px);
+            opacity: 0;
+            transition: transform 0.3s ease-out 0.25s, opacity 0.3s ease-out 0.25s;
 
 }
 
@@ -231,15 +250,19 @@
   width: 250px;
   margin-left: auto;
   margin-right: 30px !important;
+  transition: 0.3s ease;
 }
 .grid2 button:hover{
   background-color: transparent;
   border: 1px solid rgb(223, 221, 221);
   color: #0070e0;
+  transform: scale(1.02);
 }
+
 .grid2 .get{
 margin-top: 90px;
 }
+
 
 .grid2 .small-btn {
   display: flex;
@@ -262,6 +285,15 @@ margin-top: 90px;
 #humbuger-menu{
   display: none;
 }
+
+    nav ul li:hover .dropdown .grid1,
+        nav ul li:hover .dropdown .grid2,
+        nav ul li:hover .dropdown2 .grid1a,
+        nav ul li:hover .dropdown2 .grid1b,
+        nav ul li:hover .dropdown2 .grid2a {
+            transform: translateY(0);
+            opacity: 1;
+        }
 
 
 

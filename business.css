@@ -24,24 +24,39 @@
     
 
      .dropdown2 {
-      display: none;
+    
       position: absolute;
-      top: 101%;
+      top: 100%;
       width: 100vw;
-      height: 450px;
+      height: 0px;
       z-index: 1000;
       left: 0;
       
       color: #333;
-      padding: 20px;
+      padding:0 20px;
+       
       width: 100%;/* width of dropdown */
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+       
+       overflow: hidden;          /* Hide content */
+  opacity: 0;                /* Fade out */
+  transform: scaleY(0);      /* Shrink vertically */
+  transform-origin: top;     /* Animate from the top border */
+  transition: 
+    transform 0.3s ease-out,
+    opacity 0.3s ease-out,
+    max-height 0.3s ease-out;
     }
 
-     nav ul li:hover .dropdown2 {
+     nav ul li:hover .dropdown2
+     
+      {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3-column grid */
       gap: 20px;
+       transform: scaleY(1);      /* Grow down */
+  height: 450px;         /* Or whatever fits */
+  opacity: 1;     
    
     }
       nav ul li:hover .dropdown2,
@@ -50,8 +65,12 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
          background-color: white;
+         
     }
 
+
+
+        
     .dropdown2 .grid1a{
       display: flex;
       flex-direction: column;
@@ -59,6 +78,7 @@
       margin-left: 225px;
       padding-left: 20px;
       width: 500px;
+     
       
     }
     .grid1a h2{
@@ -109,9 +129,7 @@
   color: #0070e0;
   font-weight: bolder;
 }
-.grid1a button:hover i{
- 
-}
+
 .grid1a button i{
    display: none;
 
@@ -121,14 +139,13 @@
   margin-left: auto;
   color: #0070e0;
   font-size: 15px;
-   transform: translateX(5px); /* Move the arrow 5px to the right */
-    transition: transform 0.3s ease; /* Smooth animation */
+  
 }
 
 .grid2a{
   display: block;
   flex-direction: column;
-
+   
 
 }
 
@@ -147,12 +164,13 @@
   width: 250px;
   margin-left: auto;
   margin-right: 240px;
- 
+  transition: 0.3s ease;
 }
 .grid2a button:hover{
   background-color: transparent;
   border: 1px solid rgb(223, 221, 221);
   color: #0070e0;
+  transform: scale(1.02);
 }
 .grid2a .get{
 margin-top: 90px;
@@ -199,7 +217,7 @@ display: flex;
      margin-left: 0px;
       padding-left: 20px;
       width: 500px;
-    
+  
     }
     .grid1b h2{
       margin-top: 20px;
@@ -248,9 +266,7 @@ display: flex;
   color: #0070e0;
   font-weight: bolder;
 }
-.grid1b button:hover i{
- 
-}
+
 .grid1b button i{
    display: none;
 
@@ -260,14 +276,16 @@ display: flex;
   margin-left: auto;
   color: #0070e0;
   font-size: 15px;
-   transform: translateX(5px); /* Move the arrow 5px to the right */
-    transition: transform 0.3s ease; /* Smooth animation */
+ 
 }
 .grid1b #business{
       margin-top: 72px !important;
        color: #001c64;
       font-weight: 700;
     }
+
+
+    
     
     @media screen and (max-width:1440px) {
       .dropdown2 .grid1a{

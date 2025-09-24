@@ -59,3 +59,6 @@ border: none;
   height: 45px;
   border-radius: 50px;
 }
+.blue2 button:hover{
+  background-color: #b9effc;
+}

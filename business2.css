@@ -1,0 +1,300 @@
+
+
+    
+    #accept{
+       color: #001c64;
+      font-weight: 700;
+    }
+    #paypal{
+        color: #001c64;
+         font-weight: 700;
+         font-size: 30px;
+    }
+     #paypal:hover{
+     color: #0070e0; 
+    }
+     #accept:hover{
+     color: #0070e0; 
+    }
+     #business:hover{
+     color: #0070e0; 
+    }
+
+    
+    
+
+     .dropdown2 {
+    
+      position: absolute;
+      top: 100%;
+      width: 100vw;
+      height: 0px;
+      z-index: 1000;
+      left: 0;
+      
+      color: #333;
+      padding:0 20px;
+       
+      width: 100%;/* width of dropdown */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+       
+       overflow: hidden;          /* Hide content */
+  opacity: 0;                /* Fade out */
+  transform: scaleY(0);      /* Shrink vertically */
+  transform-origin: top;     /* Animate from the top border */
+  transition: 
+    transform 0.3s ease-out,
+    opacity 0.3s ease-out,
+    max-height 0.3s ease-out;
+    }
+
+     nav ul li:hover .dropdown2
+     
+      {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3-column grid */
+      gap: 20px;
+       transform: scaleY(1);      /* Grow down */
+  height: 450px;         /* Or whatever fits */
+  opacity: 1;     
+   
+    }
+      nav ul li:hover .dropdown2,
+    nav ul li .dropdown2:hover {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+         background-color: white;
+         
+    }
+
+
+
+        
+    .dropdown2 .grid1a{
+      display: flex;
+      flex-direction: column;
+   
+      margin-left: 225px;
+      padding-left: 20px;
+      width: 500px;
+     
+      
+    }
+    .grid1a h2{
+      margin-top: 20px;
+      color: #001c64;
+
+    }
+    .grid1a h4{
+      color: #001c64;
+      font-weight: 700;
+    }
+    .grid1a hr{
+      margin-top: 20px;
+      width: 390px !important;
+      border:none;
+      height: 0.5px;
+      background-color: rgb(223, 221, 221);
+    }
+    .grid1a button{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border: none;
+      margin-left: -10px;
+      background-color: white;
+      color: #001c64;
+      font-size: 16px;
+      width: 400px;
+      
+    }
+    .grid1a .small-btn{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1dbf5;
+  color: white;
+  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 20px;
+    }
+.grid1a button:hover{
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 10px;
+  color: #0070e0;
+  font-weight: bolder;
+}
+
+.grid1a button i{
+   display: none;
+
+}
+.grid1a button:hover i{
+ display: flex;
+  margin-left: auto;
+  color: #0070e0;
+  font-size: 15px;
+  
+}
+
+.grid2a{
+  display: block;
+  flex-direction: column;
+   
+
+}
+
+.grid2a button{
+  background-color:#faf8f6;
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+  color: #001c64;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: 240px;
+  transition: 0.3s ease;
+}
+.grid2a button:hover{
+  background-color: transparent;
+  border: 1px solid rgb(223, 221, 221);
+  color: #0070e0;
+  transform: scale(1.02);
+}
+.grid2a .get{
+margin-top: 90px;
+}
+
+.grid2a .small-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1dbf5;
+  color: white;
+  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.small-btn i{
+  padding-left: 20px !important;
+  font-size: 15px !important;
+  color: #0070e0 !important;
+}
+
+#paypal #fa-solid{
+display: flex;
+   
+}
+
+#accept #fa-solid{
+display: flex;
+}
+  #business #fa-solid{
+ display: flex;
+  color: #0070e0;
+  font-size: 15px;
+}
+
+
+
+ .dropdown2 .grid1b{
+      display: flex;
+      flex-direction: column;
+     margin-left: 0px;
+      padding-left: 20px;
+      width: 500px;
+  
+    }
+    .grid1b h2{
+      margin-top: 20px;
+      color: #001c64;
+    }
+    .grid1b h4{
+      color: #001c64;
+      font-weight: 700;
+    }
+    .grid1b hr{
+      margin-top: 20px;
+      width: 390px !important;
+      border:none;
+      height: 0.5px;
+      background-color: rgb(223, 221, 221);
+    }
+    .grid1b button{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border: none;
+      margin-left: -10px;
+      background-color: white;
+      color: #001c64;
+      font-size: 16px;
+      width: 400px;
+      
+    }
+    .grid1b .small-btn{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1dbf5;
+  color: white;
+  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 20px;
+    }
+.grid1b button:hover{
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 10px;
+  color: #0070e0;
+  font-weight: bolder;
+}
+
+.grid1b button i{
+   display: none;
+
+}
+.grid1b button:hover i{
+ display: flex;
+  margin-left: auto;
+  color: #0070e0;
+  font-size: 15px;
+ 
+}
+.grid1b #business{
+      margin-top: 72px !important;
+       color: #001c64;
+      font-weight: 700;
+    }
+
+
+    
+    
+    @media screen and (max-width:1440px) {
+      .dropdown2 .grid1a{
+        margin-left: 0px;
+      }
+      .grid2a{
+        width: 350px;
+      }
+      .grid2a button{
+        margin-right: 15px;
+      }
+    }

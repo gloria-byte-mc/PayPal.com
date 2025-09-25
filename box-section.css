@@ -1,0 +1,14 @@
+.box-section{
+width: 100vw;
+height: 100vh;
+background-color: #f3f3f6;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.box1{
+  width: 100%;
+  max-width: 500px;
+  height: fit-content;
+  background-color: yellow;
+}

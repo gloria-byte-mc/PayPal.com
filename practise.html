@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
- <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-    .container{
-      width: 100vw;
-      background-color: yellow;
-    }
-    button{
-      width: 50%;
-      height: 40%;
-      border: 2px solid blue;
-    }
-    .container p{
-      font-size: 1em;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Up on Scroll Once</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f5f5f5;
+      min-height: 200vh; /* enough to scroll */
     }
 
-   </style>
-  </head>
-  <body>
-    
-    <div class="container">
-  <button>click me</button>
-  <p>Why did you not come tomorrow</p>
-    </div>
-  </body>
+    .box {
+      width: 200px;
+      height: 200px;
+      background: #0077ff;
+      border-radius: 12px;
+      margin: 40vh auto; /* start in middle */
+       /* 👇 tie animation to scroll */
+      animation: slideUp 1s linear both;
+      animation-timeline: scroll();
+      animation-range: 0% 100%;
+    }
+
+   
+    @keyframes slideUp {
+      from { transform: translateY(0); }
+      to   { transform: translateY(-350px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
 </html>

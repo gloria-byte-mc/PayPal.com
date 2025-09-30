@@ -17,32 +17,18 @@
   flex-direction: column;
   width: 30px;
   height: fit-content;
- 
+  
   justify-self: center;
   width: 700px;
   margin-top: 170px;
-   view-timeline-name: --boxTimeline;
-  view-timeline-axis: block;
-  animation-timeline: --boxTimeline;
-  animation-timeline:view() ;
-  animation-range: exit 0% cover 100%; 
-  animation-name: slowFloat;
-  animation-fill-mode: both;
-  
-  /* Initial state - element starts translated down */
-  transform: translateY(50px);
-   animation-timing-function: linear;
+ transition: 2s ease-out;
 
 }
 
-@keyframes slowFloat {
-  from {
-    transform: translateY(0px);
-   }
-  to {
-    transform: translateY(-400px);
-    }
+.simplified1:hover{
+  transform: translateY(-150px);
 }
+
 .simplified h2{
   text-align: center;
   font-size: 76.29px;

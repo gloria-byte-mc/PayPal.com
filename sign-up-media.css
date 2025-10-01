@@ -503,7 +503,7 @@ hr{
   }
 
   .footer{
-height: 80vh !important;
+height: 50vh !important;
 }
 .footer-wording{
   line-height: 40px !important;
@@ -581,7 +581,7 @@ hr{
 
 @media screen and (max-width:376px) {
   .footer{
-  height: 90vh !important;
+  height: 60vh !important;
 }
 .footer-wording{
   

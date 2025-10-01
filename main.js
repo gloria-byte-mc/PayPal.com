@@ -10,7 +10,7 @@ function function2(){
 const sign = document.querySelector(".sign-up");
 
 sign.addEventListener("click", ()=>{
-  window.location.href = "#";
+  window.location.href = "sign-up.html";
 });
 
 }
@@ -103,5 +103,34 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
+  
+  /*
+  const more = document.querySelector(".more");
+
+  more.addEventListener("click", ()=>{
+  const label2 = document.querySelector(".label2");
+  label2.style.display = "block";
+
+  });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const more = document.querySelector(".more");
+  more.addEventListener("click", () => {
+    document.querySelector(".label2").style.display = "block";
+  });
+});
+
+*/
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const more = document.querySelector(".more");
+  more.addEventListener("click", () => {
+    const label2 = document.querySelector(".label2");
+    label2.classList.toggle("hidden");
+  });
+});
 
   

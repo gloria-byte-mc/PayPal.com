@@ -70,7 +70,7 @@ document.addEventListener("scroll", () => {
   const scrollY = window.scrollY; 
 
   //This is the distance in which the overlay should disappear completely in pixels.
-  const fadePoint = 300;
+  const fadePoint = 600;
 
   let opacity = 1 - scrollY / fadePoint;
   if (opacity < 0) opacity = 0; 
@@ -79,7 +79,9 @@ document.addEventListener("scroll", () => {
 
 
 
-  document.addEventListener("DOMContentLoaded", () => {
+
+
+document.addEventListener("DOMContentLoaded", () => {
     const target = document.querySelector(".button");
     let lastScrollY = window.scrollY; 
     window.addEventListener("scroll", () => {
@@ -99,3 +101,7 @@ document.addEventListener("scroll", () => {
       lastScrollY = currentScroll; 
     }, { passive: true });
   });
+
+
+
+  
